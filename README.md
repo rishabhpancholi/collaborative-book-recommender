@@ -44,7 +44,8 @@ This is a **Collaborative Filtering-based Book Recommendation System** where:
 
 ### Results
 
-![Results Page Screenshot](screenshots/recommendations.png)
+![Results Page Screenshot](screenshots/recommendations1.png)
+![Results Page Screenshot](screenshots/recommendations2.png)
 
 ## ⭐ Star the Repository
 
@@ -93,9 +94,16 @@ pip install -e .
 3. Run client and server side code seperately:
 
 ```bash
+cd client
 streamlit run app.py --server port [port-number]
-python app.py
 
+```
+
+for client
+
+```bash
+cd server
+python app.py
 ```
 
 4. Open your browser and navigate to `http://localhost:[port-number]`
@@ -107,3 +115,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Live Demo
+
+https://collaborative-book-recommender-rishabh.streamlit.app/
