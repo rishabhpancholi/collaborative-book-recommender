@@ -1,4 +1,4 @@
-# 📚 Collaborative-Based Book Recommender System
+# 📚 Collaborative-Based Book Recommendation System
 
 This is a **Collaborative Filtering-based Book Recommendation System** where:
 
