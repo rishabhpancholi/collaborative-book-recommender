@@ -6,7 +6,7 @@ import pickle
 app = Flask(__name__)
 
 # Connecting with the streamlit frontend
-CORS(app,origins=['http://localhost:8502'])
+CORS(app,origins=['https://collaborative-book-recommender-rishabh.streamlit.app'])
 
 #Load the data from pickle
 with open('artifacts/popular.pkl','rb') as f:
