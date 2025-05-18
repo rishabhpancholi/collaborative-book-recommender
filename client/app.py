@@ -19,7 +19,7 @@ if page == 'Popular':
     st.header('Most Popular Books')
     try:
         # Fetch popular books from backend
-        url = 'http://127.0.0.1:5000/popular'
+        url = 'https://collaborative-book-recommender.onrender.com/popular'
         response = requests.get(url)
 
         if response.status_code == 200:
@@ -62,7 +62,7 @@ elif page == 'Recommend':
     st.header('Choose one book from the list')
     try:
         # Fetch full book dataset from backend
-        url = 'http://127.0.0.1:5000'
+        url = 'https://collaborative-book-recommender.onrender.com'
         response = requests.get(url)
 
         if response.status_code == 200:
@@ -125,7 +125,7 @@ elif page == 'Recommend':
                 st.header('You Might Also Like These')
                 try:
                     # Fetch recommended books from backend
-                    url = f'http://127.0.0.1:5000/recommend/{raw_title}'
+                    url = f'https://collaborative-book-recommender.onrender.com/recommend/{raw_title}'
                     response = requests.get(url)
 
                     if response.status_code == 200:
