@@ -119,3 +119,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Live Demo
 
 https://collaborative-book-recommender-rishabh.streamlit.app/
+
+- ✅ **Frontend** (Streamlit) is deployed on **Streamlit Cloud**
+- ✅ **Backend** (Flask) is deployed on **Render**
