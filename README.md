@@ -56,7 +56,7 @@ If you find this project useful, please consider giving it a star! Your support 
 - Python 3.13
 - Flask 3.1.1
 - Streamlit 1.45.1
-- Other dependencies listed in `pyproject.toml`
+- Other dependencies listed in `requirements.txt`
 
 ## Installation
 
