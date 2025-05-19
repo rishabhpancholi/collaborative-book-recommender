@@ -48,7 +48,7 @@ if page == 'Popular':
                             st.write(title)
 
                 # Add red divider and spacing between rows
-                st.markdown("<div style='height:1px; background-color:red;'></div>", unsafe_allow_html=True)
+                st.markdown("<div style='height:1px; background-color:blue;'></div>", unsafe_allow_html=True)
                 st.markdown("<div style='height:10px;'></div>", unsafe_allow_html=True)
         else:
             st.write('Oops! Something went wrong!')
@@ -118,7 +118,7 @@ elif page == 'Recommend':
 
                 # Divider after book details
                 st.markdown("<div style='height:10px;'></div>", unsafe_allow_html=True)
-                st.markdown("<div style='height:1px; background-color:red;'></div>", unsafe_allow_html=True)
+                st.markdown("<div style='height:1px; background-color:blue;'></div>", unsafe_allow_html=True)
                 st.markdown("<div style='height:10px;'></div>", unsafe_allow_html=True)
 
                 # Recommended books section
@@ -153,7 +153,7 @@ elif page == 'Recommend':
                 
                 # Add red divider and spacing between rows
                 st.markdown("<div style='height:10px;'></div>", unsafe_allow_html=True)
-                st.markdown("<div style='height:1px; background-color:red;'></div>", unsafe_allow_html=True)
+                st.markdown("<div style='height:1px; background-color:blue;'></div>", unsafe_allow_html=True)
                 st.markdown("<div style='height:10px;'></div>", unsafe_allow_html=True)
         else:
             st.write('Oops! Something went wrong!')
