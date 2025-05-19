@@ -96,7 +96,7 @@ elif page == 'Recommend':
 
                     # Show book details
                     title = html.unescape(raw_title)
-                    st.header(title)
+                    st.header(title.title())
 
                     # Add spacing
                     st.markdown("<div style='height:10px;'></div>", unsafe_allow_html=True)
@@ -105,7 +105,7 @@ elif page == 'Recommend':
 
                     # Show author
                     author = books_df[books_df['title']==raw_title]['author'].values[0]
-                    st.subheader(f'Written by: {author}')
+                    st.subheader(f'Written by: {author.title()}')
 
                     # Add spacing
                     st.markdown("<div style='height:10px;'></div>", unsafe_allow_html=True)
