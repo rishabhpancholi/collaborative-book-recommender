@@ -3,11 +3,14 @@ import pandas as pd
 import numpy as np
 import requests
 import html
+import streamlit.components.v1 as components
 
 # Set page layout to wide for better visual presentation
 st.set_page_config(layout="wide")
 
-st.title('Book Recommendation System')
+title_html = '<h1> Book Recommendation System </h1>'
+
+components.html(title_html,height=100)
 
 # Sidebar navigation
 tab1,tab2 = st.tabs(["Popular", "Recommend"])
