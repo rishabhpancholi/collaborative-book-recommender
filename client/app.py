@@ -8,7 +8,7 @@ import streamlit.components.v1 as components
 # Set page layout to wide for better visual presentation
 st.set_page_config(layout="wide")
 
-title_html = '<h1> Book Recommendation System </h1>'
+title_html = '<h1 style = "color: white;"> Book Recommendation System </h1>'
 
 components.html(title_html,height=100)
 
