@@ -10,12 +10,12 @@ st.set_page_config(layout="wide")
 st.title('Book Recommendation System')
 
 # Sidebar navigation
-page = st.sidebar.radio("Navigate", ["Popular", "Recommend"])
+tab1,tab2 = st.tabs(["Popular", "Recommend"])
 
 # ===========================
 # -------- Popular ----------
 # ===========================
-if page == 'Popular':
+with tab1:
     st.header('Most Popular Books')
     try:
         # Fetch popular books from backend
@@ -58,7 +58,7 @@ if page == 'Popular':
 # ===========================
 # -------- Recommend --------
 # ===========================
-elif page == 'Recommend':
+with tab2:
     st.header('Choose one book from the list')
     try:
         # Fetch full book dataset from backend
